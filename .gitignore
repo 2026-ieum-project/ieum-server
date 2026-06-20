@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 환경 변수 (직접 공유 필요)
+.env
+.env.*
+
+# 가상환경
+.venv
+venv/
+env/
+ENV/
+
+# 패키지 빌드
+*.egg-info/
+dist/
+*.egg
+
+# 테스트 / 커버리지
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 로그
+*.log
+
+# DB
+*.db
+*.sqlite3
+
+# PyTorch 모델 파일
+*.pt
+*.pth
+*.ckpt
+
+# IDE
+.idea/
+.DS_Store
